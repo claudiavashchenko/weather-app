@@ -92,3 +92,7 @@ button {
 #temperature-description {
     text-transform: capitalize;
 }
+.github {
+    text-align: center;
+    margin-top: 20px;
+}

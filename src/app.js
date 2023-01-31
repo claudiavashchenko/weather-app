@@ -51,4 +51,7 @@ function search(event) {
  let citySearch = document.querySelector("#search-city-button");
  citySearch.addEventListener("click", search);
 
+ let cityEnter = document.querySelector("#search-form");
+ cityEnter.addEventListener("submit", search )
+
 

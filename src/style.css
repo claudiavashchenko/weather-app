@@ -13,6 +13,7 @@ h1 {
 h2 {
     margin-top: 20px;
     font-size: 50px;
+    line-height: 10px;
 }
 i {
     font-size: 50px;
@@ -101,4 +102,19 @@ button {
     font-size: 100px;
     margin-top: 20px;
 }
-
+#fahrenheit-link {
+    position: relative;
+    top: -18px;
+}
+#celcius-link {
+    position: relative;
+    top: -18px;
+    
+}
+.divider {
+    position: relative;
+    top: -18px;
+}
+#city {
+    line-height: 10px;
+}

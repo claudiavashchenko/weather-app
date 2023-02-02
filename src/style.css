@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(187, 221, 241)
+    background-color: rgb(228, 234, 237)
 }
 p{
     font-size: 30px;
@@ -33,7 +33,7 @@ a {
     border: 5px solid black;
     width: 1000px;
     border-radius: 30px;
-    background-color: rgb(185, 201, 211);
+    background-color: rgb(192, 205, 213);
     margin-top: 50px;
 }
 .weather-secondary {

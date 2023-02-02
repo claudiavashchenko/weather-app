@@ -53,7 +53,7 @@ a {
 .weather-main {
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     
 }
 .weather-main p {
@@ -98,9 +98,9 @@ button {
     text-align: center;
     margin-top: 20px;
 }
-.main-icon{
-    font-size: 100px;
-    margin-top: 20px;
+#icon{
+    width: 200px;
+    height: 200px;
 }
 #fahrenheit-link {
     position: relative;

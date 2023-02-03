@@ -16,6 +16,30 @@ timing.innerHTML = `${day} ${hours}:${minutes}`;
 
 
 
+function displayForecast(){
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row layout">`;
+  let days = ["Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday"]
+  days.forEach(function(day){
+    forecastHTML = forecastHTML +
+    `<div class = "col-2">
+    <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
+    <br/>
+    <span>Friday</span>
+    <p class="high">18˚</p>
+    <p class="low">16˚</p>
+  </div>`
+    forecastHTML = forecastHTML + `</div>`;
+    forecastElement.innerHTML = forecastHTML;
+  })
+  
+
+ 
+}
+
+
+
 function displayWeatherCondition(response) {
     document.querySelector("#city").innerHTML = response.data.name;
     document.querySelector("#temperature").innerHTML = Math.round(response.data.main.temp);
@@ -24,6 +48,8 @@ function displayWeatherCondition(response) {
     iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
     iconElement.setAttribute("alt", response.data.weather[0].description);
     celciusTemperature = response.data.main.temp;
+
+   
 }
 
 
@@ -82,3 +108,5 @@ celciusLink.addEventListener("click", displayCelciusTemperature);
 
 
 let celciusTemperature = null;
+
+displayForecast();

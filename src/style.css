@@ -9,6 +9,8 @@ span {
 }
 h1 {
     font-size: 60px;
+    color: rgb(134, 131, 131)
+
    
 
 }
@@ -35,6 +37,7 @@ a {
     border-radius: 30px;
     background-color: rgb(192, 205, 213);
     margin-top: 50px;
+    box-shadow: 0px -1px 20px 3px rgba(0, 0, 0, 0.2);
 }
 .weather-secondary {
     display: flex;
@@ -54,7 +57,7 @@ a {
 .weather-main {
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 50px;
+  
     
 }
 .weather-main p {
@@ -118,4 +121,10 @@ button {
 }
 #city {
     line-height: 10px;
+}
+.low {
+    color:rgb(134, 131, 131)
+}
+.layout {
+    margin: 0 auto;
 }
